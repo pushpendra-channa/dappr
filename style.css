@@ -1,0 +1,297 @@
+* {
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+
+/* header part */
+
+.header {
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: flex;
+    background-color: #6F6AF7;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+.header .comp img {
+    padding-left: 80px;
+    padding-top: 23px;
+    height: auto;
+    width: auto;
+
+}
+
+.nav {
+    width: 70%;
+}
+
+.header ul {
+    padding-top: 5px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+}
+
+.search {
+    position: relative;
+    bottom: 7px;
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    border-radius: 63px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+}
+
+.search img {
+    position: relative;
+    right: 35px;
+}
+
+.bar {
+    width: 7%;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+/* header finish */
+
+/* container box start */
+
+.content {
+
+    align-items: center;
+    display: flex;
+    height: 550px;
+    margin: 0 120px;
+    margin-top: 180px;
+    justify-content: space-evenly;
+}
+
+.content .image {
+    width: 500px;
+    height: 500px;
+
+}
+
+.bigbox {
+    flex-grow: 2px;
+    margin-top: 10px;
+    background: #E5D8FF;
+    height: 495px;
+    width: 900px;
+    padding: 10px;
+    border: 6px solid #FFFFFF;
+    box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.bigbox>p {
+
+    font-size: 29px;
+    top: 30px;
+    margin: 30px 50px 30px 35px;
+    line-height: 178.7%;
+    color: #6F7373;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+
+/* container box done */
+
+/* cards  */
+
+.cards {
+
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    margin: 90px 60px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+    color: white;
+    width: 280px;
+    height: 100px;
+    font-size: 30px;
+    padding: 0px 25px 40px 30px;
+    line-height: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.card1 {
+    background: #929DFF;
+}
+
+.card2 {
+    background: #734CF2;
+}
+
+.card3 {
+    background: #D288FF;
+}
+
+.card4 {
+    background: #000000;
+}
+
+/* cards done */
+
+/* basic info */
+
+.ft {
+    display: flex;
+    background: #483EFF;
+    border-radius: 21px;
+    margin: 170px 100px 0px 85px;
+    height: 690px;
+}
+
+.vbox {
+    margin: 50px 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+    
+    height: 600px;
+}
+
+.vbox1,
+.vbox2,
+.vbox3 {
+    display: flex;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.4);
+    border-radius: 22px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    line-height: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 350px;
+    height: 100px;
+    
+}
+
+.vbox1 {
+    background: #BCE0F6;
+    color: #000000;
+    
+}
+.vbox2, .vbox3{
+    border: 5px solid #FFFFFF;
+    border-radius: 22px;
+    color: white;
+    background: #483EFF;
+}
+
+.information{
+    margin: 80px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 15px;
+    color: #143565;
+    letter-spacing: 0.05em;
+    border-radius: 19px;
+    font-style: normal;
+    width: 950px;
+    height: 550px;
+    background-color: white;
+}
+.infohead {
+    margin: 68px 0 0 50px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: 0.105em;
+    font-style: normal;
+
+color: #04285A;
+}
+
+.name, .email, .phone, .marks{
+    display: flex;
+    margin-left: 80px;
+}
+.bold{
+    font-weight: bold;
+    margin-right: 15px;
+}
+.button{
+    background-color: #000000;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 20px;
+    display: flex;
+    padding-left: 23px;
+    letter-spacing: 0.05em;
+    width: 140px;
+    height: 60px;
+    border-radius: 9px;
+    align-items: center;
+    font-weight: 400; 
+
+    /* Position setting */
+
+    position: relative;
+    top: 20px;
+    bottom: 30px;
+    right: 0px;
+    left: 725px;
+}
+.button img{
+    height: 20px;
+    width: 30px;
+}
+
+/* chats  */
+
+.chats{
+   
+    position: sticky;
+    float: right;
+    top: 130px;
+    margin-top: -25%;
+}
+.help{
+    position: fixed;
+    top: 78%;
+    left: 88%;
+    
+}
